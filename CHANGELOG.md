@@ -1,4 +1,4 @@
 Changelog
 =======
-0.1
-first public version
+####0.1
+- first public version
