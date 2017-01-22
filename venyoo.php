@@ -43,18 +43,14 @@ class plgSystemvenyoo extends JPlugin
 		//getting body code and storing as buffer
 		$buffer = JResponse::getBody();
 		
-		$script	=  " ";
+		$script	=  '<script type="text/javascript" src="//api.venyoo.ru/wnew.js?wc=venyoo/default/science&widget_id='.$id.'"></script>';
 
 		//is it enabled?
 		$javascript='';
         if ($enabled)	$javascript= $javascript.$script;
-
-
 		$buffer = preg_replace ("/<\/body>/", $javascript."\n\n</body>", $buffer);
-		
 		//output the buffer
 		JResponse::setBody($buffer);
-		
 		return true;
 	}
 }
