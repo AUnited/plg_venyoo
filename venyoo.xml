@@ -8,7 +8,7 @@
   <authorUrl>http://aunited.ru</authorUrl>
   <version>0.1</version>
   <copyright>Copyright (c) 2017 AUnuted Co. Ltd. All rights reserved.</copyright>
-  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <license>MIT License (https://opensource.org/licenses/MIT)</license>
   <description><![CDATA[PLG_VENYOO_XML_DESCRIPTION]]></description>
   <files>
 	<folder>language</folder>
@@ -33,6 +33,6 @@
     </fields>
   </config>
     <updateservers>
-        <server type="extension" priority="1" name="venyoo"><![CDATA[http://help.aunited.ru/venyoo/update/venyoo-update.xml]]></server>
+        <server type="extension" priority="1" name="venyoo"><![CDATA[http://help.aunited.ru/leadgen/update/leadgen-update.xml]]></server>
     </updateservers>
 </extension>
